@@ -56,8 +56,8 @@ async def start(b, m):
             text='🙋 Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & see the magic!',
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('Bots Channel', url='https://t.me/Discovery_Updates'), InlineKeyboardButton('Support Group', url='https://t.me/linux_repo')],
-                    [InlineKeyboardButton('Developer', url='https://t.me/AbirHasan2005')]
+                    [InlineKeyboardButton('Channel', url='https://t.me/XStream_Flix'), InlineKeyboardButton('Support Group', url='https://t.me/joinchat/2VULyCTHCoU5ZDM9')],
+                    [InlineKeyboardButton('Developer', url='https://t.me/ShivamTheSkywalker')]
                 ]
             ),
             disable_web_page_preview=True
@@ -177,8 +177,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"), InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
-                [InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")]
+                [InlineKeyboardButton("Support Group", url="https://t.me/XStream_Flix"), InlineKeyboardButton("Bots Channel", url="https://t.me/XStream_Flix")],
+                [InlineKeyboardButton("Developer", url="https://t.me/ShivamTheSkywalker")]
             ]
         )
     )
