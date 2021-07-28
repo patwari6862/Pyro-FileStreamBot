@@ -53,11 +53,11 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
-            text='🙋 Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & see the magic!',
+            text='(>‿◠)✌ Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & see the magic ᕙ(`▿´)ᕗ !',
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('Channel', url='https://t.me/XStream_Flix'), InlineKeyboardButton('Support Group', url='https://t.me/joinchat/2VULyCTHCoU5ZDM9')],
-                    [InlineKeyboardButton('Developer', url='https://t.me/ShivamTheSkywalker')]
+                    [InlineKeyboardButton('✔ Channel', url='https://t.me/XStream_Flix'), InlineKeyboardButton('Support Group', url='https://t.me/joinchat/2VULyCTHCoU5ZDM9')],
+                    [InlineKeyboardButton('© Developer', url='https://t.me/ShivamTheSkywalker')]
                 ]
             ),
             disable_web_page_preview=True
@@ -123,11 +123,11 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.message_id)
 
-        msg_text = "Bruh! 😁\nYour Link Generated! 🤓\n\n📂 **File Name:** `{}`\n**File Size:** `{}`\n\n📥 **Download Link:** `{}`"
+        msg_text = "( ͡❛ ͜ʖ ͡❛) 👉\nYour Link Generated! 🤓\n\n📂 **File Name:** `{}`\n**File Size:** `{}`\n\n📥 **Download Link:** `{}`"
         await m.reply_text(
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode="Markdown",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Download Now", url=stream_link)]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✔Open In Browser", url=stream_link)]])
         )
 
 
@@ -172,13 +172,13 @@ async def help_handler(bot, message):
                 disable_web_page_preview=True)
             return
     await message.reply_text(
-        text="Send me any File I will provide External Direct Download Link!\n\nAlso I am Supported in Channels. Add me to Channel as Admin to Make Me Workable!",
+        text="😉 Send me any File I will provide External Direct Download Link!\n\nAlso I am Supported in Channels. Add me to Channel as Admin to Make Me Workable!",
         parse_mode="Markdown",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Support Group", url="https://t.me/XStream_Flix"), InlineKeyboardButton("Bots Channel", url="https://t.me/XStream_Flix")],
-                [InlineKeyboardButton("Developer", url="https://t.me/ShivamTheSkywalker")]
+                [InlineKeyboardButton("🌟Support Group", url="https://t.me/XStream_Flix"), InlineKeyboardButton("🌟Bots Channel", url="https://t.me/XStream_Flix")],
+                [InlineKeyboardButton("🌟Developer", url="https://t.me/ShivamTheSkywalker")]
             ]
         )
     )
